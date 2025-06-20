@@ -1,0 +1,5 @@
+.env
+sales-venv/
+db_ddl.txt
+tabLeave.json
+vertexai_service_key.json

@@ -1,0 +1,23 @@
+fastapi
+uvicorn
+openai
+langchain
+langchain-community
+langchain-openai
+sqlparse
+faiss-cpu #chromaDB
+singlestoredb #singlestoreDB
+pydantic
+python-dotenv
+cryptography
+requests
+pydantic-settings
+loguru
+sqlalchemy
+google-cloud-aiplatform
+protobuf #Used under the hood by Google APIs
+vertexai
+pyodbc
+langchain_core
+pymysql
+psycopg2-binary
