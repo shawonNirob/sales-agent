@@ -1,4 +1,4 @@
-python3 -m venv sales-env
-sales-venv\bin\activate
+python3 -m venv sales-venv
+sales-venv/bin/activate
 sales-venv\Scripts\activate.bat
 
