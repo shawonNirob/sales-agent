@@ -16,7 +16,6 @@ from app.chains.llm_chain import response_chain
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 from langchain_community.utilities import SQLDatabase
-from app.virtual_file import run_chart_code
 
 
 # Set up logging
