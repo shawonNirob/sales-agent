@@ -14,7 +14,9 @@ from app.schemas.chat_schema import AskRequest
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/shawon/builder/chain-llm/erp-ai-agent-backup/db-chatbot-ai/vertexai_service_key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/ubuntu/sales-agent/vertexai_service_key.json"
+
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/shawon/builder/chain-llm/erp-ai-agent-backup/db-chatbot-ai/vertexai_service_key.json"
 
 PROJECT_ID = "innate-node-453604-g7"
 vertexai.init(project=PROJECT_ID, location="us-central1")
